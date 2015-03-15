@@ -1,5 +1,6 @@
 # EOH Badge 2015
 This repo has the badges I designed for University of Illinois' [Engineering Open House] (http://eoh.ec.illinois.edu). The [student branch of IEEE] (http://ieee.illinois.edu) funded the creation of about 350 of these little guys, and they were a huge hit with the crowd!
+
 ![badge](http://i.imgur.com/vE073Ky.png?1)
 
 ## How It Works
