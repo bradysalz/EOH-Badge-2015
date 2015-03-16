@@ -5310,16 +5310,6 @@ Source: www.kingbright.com</description>
 <nets>
 <net name="VDD" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="VDD_1"/>
-<wire x1="-33.02" y1="71.12" x2="-27.94" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VDD_2"/>
-<wire x1="-33.02" y1="68.58" x2="-27.94" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="68.58" x2="-27.94" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="COMM"/>
-<wire x1="-27.94" y1="71.12" x2="-20.32" y2="71.12" width="0.1524" layer="91"/>
-<junction x="-27.94" y="71.12"/>
-</segment>
-<segment>
 <pinref part="PHOTO_CELL" gate="G$1" pin="2"/>
 <wire x1="0" y1="30.48" x2="0" y2="38.1" width="0.1524" layer="91"/>
 <label x="0" y="38.1" size="1.778" layer="95"/>
@@ -5331,6 +5321,11 @@ Source: www.kingbright.com</description>
 <pinref part="IC1" gate="G$1" pin="VCC"/>
 <wire x1="25.4" y1="71.12" x2="27.94" y2="71.12" width="0.1524" layer="91"/>
 <label x="17.78" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PB5/PCINT5/!RESET!/ADC0/DW"/>
+<wire x1="27.94" y1="55.88" x2="17.78" y2="55.88" width="0.1524" layer="91"/>
+<label x="17.78" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -5409,6 +5404,19 @@ Source: www.kingbright.com</description>
 <pinref part="LED2" gate="G$1" pin="A"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="12.7" x2="50.8" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BATTERY" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="VDD_1"/>
+<wire x1="-33.02" y1="71.12" x2="-27.94" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="VDD_2"/>
+<wire x1="-33.02" y1="68.58" x2="-27.94" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="68.58" x2="-27.94" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="COMM"/>
+<wire x1="-27.94" y1="71.12" x2="-20.32" y2="71.12" width="0.1524" layer="91"/>
+<junction x="-27.94" y="71.12"/>
+<label x="-27.94" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
