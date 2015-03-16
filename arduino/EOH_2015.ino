@@ -8,8 +8,11 @@ void setup() {
     pinMode(ADC_IN, INPUT);
     pinMode(LED1, OUTPUT);
     pinMode(LED2, OUTPUT);
-    pinMode(RIP_RESET, OUTPUT);
-    digitalWrite(RIP_RESET, LOW);
+	
+	// these lines aren't needed now that we route VDD correctly
+	// keeping them in removes the ability to re-flash the board
+    // pinMode(RIP_RESET, OUTPUT);
+    // digitalWrite(RIP_RESET, LOW);
 }
 
 void fadeout() {
