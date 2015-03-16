@@ -9,5 +9,5 @@ We flashed simple Arduino code onto a ATtiny85's in order to sample the voltage 
 ## To Do
 - [ ] Swap from polling to interrupt code ( ISR ADC_vect)
 - [ ] Add pin clasps to BOM somehow?
-- [ ] Edit PCB to properly handle SPDT switch (currently in parallel AKA useless)
-- [ ] Edit PCB to wire RESET to VDD (had to write it as GPIO, can't reflash, not the biggest problem)
+- [x] Edit PCB to properly handle SPDT switch (currently in parallel AKA useless)
+- [x] Edit PCB to wire RESET to VDD (had to write it as GPIO, can't reflash, not the biggest problem)
